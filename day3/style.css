@@ -20,7 +20,7 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .h1__special{
@@ -43,6 +43,8 @@ body {
 
 .intro-content {
   width: 60%;
+  max-width: 1250px;
+
 }
 
 .content{
@@ -51,7 +53,7 @@ body {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   padding: .8em;
   margin: 2em 0;
   background-color: #38cfd9;
@@ -62,4 +64,16 @@ body {
   text-align: center;
   min-width: 189.5px;
   max-width: 200px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 498px) {
+  .intro-content {
+    width: 100%;  
+  } 
+  .btn {
+    width: 100%;
+    max-width:none;
+    min-width: none;
+  }
 }
