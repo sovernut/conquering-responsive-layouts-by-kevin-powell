@@ -35,14 +35,19 @@ h1 {
 
 .container {
     width: 80%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.container h2{
+    color: #136C72;
 }
 
 .row {
     /* display: flex => flex container */
     display: flex;
-
+    text-align: center;
+    margin: 50px auto;
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -80,4 +85,23 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.full {
+    display: flex;
+    width: 80%;
+    color: white;
+    max-width: 1200px;
+
+}
+
+
+.container-extra {
+    width: 100%;
+    background-color: #136C72;
+    padding: 38px 0;
+}
+
+.col + .col {
+   margin-left: 50px;
 }
