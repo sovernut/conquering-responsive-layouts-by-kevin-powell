@@ -58,7 +58,7 @@ h1 {
 }
 
 .main__content {
-    flex-basis: 60%;
+    width: 62%;
 }
 
 .main__content h2{
@@ -66,15 +66,14 @@ h1 {
 }
 
 .side__content {
-    flex-basis: 40%;
+    width: 32%;
     padding: 0 50px;
     background: #136c72;
     color: white;
-    margin-left: 50px;
 }
 
 .margin__top{
-    margin-top: 50px;
+    margin-top: 3em;
 }
 
 /* .col + .col {
@@ -92,9 +91,12 @@ h1 {
 }
 
 .hero__img {
-    width: 100%;
+    width: 32%;
     align-self: flex-start;
 }
+/* .hero_img img {
+    max-width: 100%;
+} */
 
 .hero p {
     margin-bottom: 3em;
