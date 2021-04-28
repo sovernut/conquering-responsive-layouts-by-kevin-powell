@@ -73,23 +73,50 @@ header {
     padding: 1em 0;
 }
 
+.logo {
+    /* border: 2px solid yellow; */
+    margin-right: 1em;
+}
 
+.nav {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* width: 700px; */
+    flex-shrink: 1;
+}
 
 .nav__list {
+    /* border: 2px solid red; */
     margin: 0;
     padding: 0;
     list-style: none;
+    
+    align-items: center;
     display: flex;
 }
 
-.nav__item{
-    margin-right: 1em;
+.nav__list--primary{
+    margin: 0 auto;
+}
+
+.nav__list--secondary{
+
+}
+
+.nav__item + .nav__item{
+    margin-left: 1em;
+}
+
+.nav__item--push-right {
+    margin-left: auto;
 }
 
 .nav__link {
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase;;
+    text-transform: uppercase;
 }
 
 
