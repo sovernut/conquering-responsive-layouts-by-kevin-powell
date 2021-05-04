@@ -1,2 +1,7 @@
-design mobile first by setting color
-using @media query to target larger screen
+- design mobile first by setting some basic properties
+    - padding
+    - color
+    - font-size
+- using @media query to target larger screen
+    - set display: flex
+    - flex-direction: row, etc.
