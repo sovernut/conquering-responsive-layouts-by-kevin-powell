@@ -1,0 +1,106 @@
+/* 
+////// For this challenge ///////
+
+- All text is in the text.md file
+
+// Requirements
+   1. Get all the navigation items next to one another
+   2. Add a space between all the items
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.section-title {
+  color: #87629a;
+}
+
+.container {
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  display: contents;
+}
+
+.first_section {
+  background: #f3eed9;
+  padding: 5em;
+  justify-content: center;
+  display: flex;
+}
+
+.first_section h1 {
+  color: #824936;
+}
+
+.first_section p {
+  color: #824936;
+  font-weight: lighter;
+}
+
+.first_section_text {
+  max-width: 70%;
+  text-align: center;
+}
+
+.sub_section {
+  min-height: 330px;
+}
+
+.f-col {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.sub_section .header {
+  color: #824936;
+  /* border: 2px solid blue; */
+}
+
+.color-section-1 {
+  color: #f3eed9;
+  background: #222c2a;
+}
+
+.color-section-2 {
+  color: #f3eed9;
+  background: #824936;
+}
+
+.row {
+  display: flex;
+  padding: 3em;
+  justify-content: space-between;
+}
+
+.col {
+  /* these are now flex items */
+  width: 100%;
+}
+
+.col + .col {
+  margin-left: 30px;
+}
+
+.p-0 {
+  padding: 0;
+}
