@@ -16,9 +16,9 @@ img {
 
 .container {
   width: 80%;
-    max-width: 1100px;
-    margin: 0 auto;
-    position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
 }
 
 header {
@@ -117,7 +117,7 @@ li {
 
 .section--adv {
   background-color: rgb(230, 227, 227);
-  color: #2E323F;
+  color: #2e323f;
   padding: 100px 0px;
 }
 
@@ -125,14 +125,14 @@ li {
   padding: 100px 0px;
 }
 
-
 .btn {
-  background-color:#a59678;
+  background-color: #a59678;
   text-decoration: none;
   color: white;
   padding: 1rem;
   border-radius: 2rem;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 h1 {
@@ -149,10 +149,18 @@ h1 {
 }
 
 .card {
-  background-color: #2E323F;
+  background-color: #2e323f;
   padding: 1rem;
   margin: 1rem 0;
-  color: white
+  color: white;
+  max-width: 350px;
+
+}
+
+.col--center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 .unorderlist--bottom {
@@ -181,7 +189,7 @@ h1 {
   }
 
   .col + .col {
-    margin-left: 3rem
+    margin-left: 3rem;
   }
 
   .nav {
@@ -203,5 +211,4 @@ h1 {
     display: flex;
     justify-content: space-around;
   }
-
 }
